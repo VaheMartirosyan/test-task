@@ -2,7 +2,7 @@ import React from 'react';
 import SocialNetworks from "../../../shared/social-networks/SocialNetworks";
 import TemplateImage from "../../../shared/image/TemplateImage";
 import "./LeftAlignedEmail.css"
-import MainInfo from "../../../shared/main-info/MainInfo";
+import MainInfo from "../components/main-info/MainInfo";
 import MainText from "../../../shared/main-text/MainText";
 
 const LeftAlignedEmail = () => {

@@ -20,10 +20,9 @@ export const EXPORTING_EMAIL_TEMPLATES = [
 ]
 
 export const EXPORTING_PAGE_TEMPLATES = [
-    {id:0,jsx:<LeftAlignedPage/>,styles:"../components/templates/page/left/LeftAlignedPage.css"},
-    {id:0,jsx:<CenterAlignedPage/>,styles:"../components/templates/page/center/CenterAlignedPage.css"},
-    {id:0,jsx:<RightAlignedPage/>,styles:"../components/templates/page/right/RightAlignedPage.css"},
-
+    {id:0,jsx:<LeftAlignedPage/>},
+    {id:1,jsx:<CenterAlignedPage/>},
+    {id:2,jsx:<RightAlignedPage/>},
 ]
 
 export const EMAIL_TEMPLATES_OPTIONS = [

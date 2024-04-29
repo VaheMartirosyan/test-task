@@ -16,6 +16,7 @@ const PagesLayout = () => {
                 <Select
                     selectedOption={selectedOption}
                     setSelectedOption={setSelectedOption}
+                    setSelectedTemplate={setSelectedTemplate}
                 />
             </div>
             <Outlet context={{selectedTemplate, setSelectedTemplate}}/>

@@ -1,9 +1,9 @@
 import React from 'react';
 import TemplateImage from "../../../shared/image/TemplateImage";
 import SocialNetworks from "../../../shared/social-networks/SocialNetworks";
-import MainInfo from "../../../shared/main-info/MainInfo";
-import MainText from "../../../shared/main-text/MainText";
 import "./CenterAlignedEmail.css"
+import MainInfo from "../components/main-info/MainInfo";
+import MainText from "../../../shared/main-text/MainText";
 
 const CenterAlignedEmail = () => {
     return (

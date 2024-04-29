@@ -1,0 +1,95 @@
+.left-aligned-page{
+    max-width: 612px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.left-aligned-page-content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    & span{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0.5px;
+        text-align: justify;
+    }
+}
+
+.left-aligned-page-heading{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    & p{
+        font-size: 21px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0.15000000596046448px;
+        text-align: left;
+    }
+    & h1{
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 76px;
+        letter-spacing: 0.5px;
+        text-align: left;
+    }
+}
+
+.left-aligned-page-image{
+    width: 100%;
+    height: 290px;
+    overflow: hidden;
+    border-radius: 24px;
+    & img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.left-aligned-page-share{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    & p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0.15000000596046448px;
+        text-align: left;
+    }
+}
+
+.left-aligned-page-share-networks{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.left-aligned-page-content-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-aligned-page-content-info-item{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.left-aligned-page-content-info-text{
+    flex: 1;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: left;
+}
+.center-aligned-page-content-right-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

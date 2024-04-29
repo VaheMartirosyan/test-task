@@ -6,6 +6,7 @@ import './Select.css';
 interface ISelect {
     selectedOption: { value: string, text: string }
     setSelectedOption: React.Dispatch<React.SetStateAction<{ value: string, text: string }>>
+    setSelectedTemplate: React.Dispatch<React.SetStateAction<number>>
 }
 
 const initialOptions = [
@@ -13,7 +14,7 @@ const initialOptions = [
     {value: "pages", text: "Page layout"},
 ]
 
-const Select: React.FC<ISelect> = ({setSelectedOption, selectedOption}) => {
+const Select: React.FC<ISelect> = ({setSelectedOption, selectedOption,setSelectedTemplate}) => {
     const location = useLocation();
     const navigate = useNavigate();
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -21,6 +22,7 @@ const Select: React.FC<ISelect> = ({setSelectedOption, selectedOption}) => {
 
     const handleSelectChange = (option: { value: string; text: string; }) => {
         setSelectedOption(option);
+        setSelectedTemplate(0)
         setIsDropdownOpen(false);
         switch (option.value) {
             case 'email':
